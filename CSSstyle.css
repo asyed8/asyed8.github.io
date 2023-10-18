@@ -1,0 +1,61 @@
+
+h1 {
+    text-align:center;
+}
+.profile-container {
+    border: 10px solid #000000;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    background-image:url(background3.jpg);
+    background-size: cover;
+    font-size: 1.6em;
+}
+.reflection{
+    border: 10px solid #390000;
+    padding: 20px;
+    text-align:left;
+    background-color: rgba(205, 205, 205, 0.7);
+    background-image: url(background8.jpeg);
+    background-size:cover;
+    font-size: 2.0em;
+    color: rgb(0, 0, 0);
+    
+
+}
+.achievements{
+    border: 10px solid #2033006a;
+    padding: 20px;
+    text-align:left;
+    background-color: rgba(205, 205, 205, 0.7);
+    background-image: url(background9.jpg);
+    background-size:cover;
+    background-attachment:scroll;
+    font-size: 2.0em;
+}
+.qualification{
+    border: 10px solid #110330;
+    padding: 20px;
+    text-align:left;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url(background11.jpg);
+    background-size:cover;
+    font-size: 2.0em;
+}
+table,
+        tr,
+        th,
+        td {
+        border: 3px solid;
+        border-collapse: collapse;
+        margin:1 auto;
+        }
+.Communication{
+    border: 10px solid #0033be;
+    padding: 20px;
+    text-align:left;
+    background-color: rgba(205, 205, 205, 0.7);
+    background-image: url(background12.jpg);
+    background-size:cover;
+    font-size: 2.0em;
+
+}

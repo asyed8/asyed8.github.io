@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="CSSstyle.css">
+   <script src="Javascript.js"></script>
+</head>
+<body>
+   
+    
+    <div class="profile-container">
+        <h1>Student Profile</h1>
+        <div class="profile-info">
+            <img src="profilepic.jpeg" alt="User's Profile Picture" width="200px" >
+            <h2>Azamuddin Syed</h2>
+            <p><strong>Email:</strong>asyed8@mail.bradley.edu</p>
+            <p><strong>Student ID:</strong> 350608</p>
+            <p><strong>Major:</strong> Computer Science</p>
+        
+            <h3>Courses:</h3>
+            <ul>
+                <li>Integrative Programming</li>
+                <li>Software Engineering</li>
+                <li>Advanced Computer Architecture</li>
+            </ul>
+        
+            <p><strong>Location:</strong> Peoria, Illinois, USA</p>
+        
+            <h3>Interests:</h3>
+            <ul>
+                <li>Programming</li>
+                <li>Music</li>
+            </ul>
+        </div>
+    </div>
+    <div class="reflection">
+        <h1>Reflection</h1>
+        <p><b>Work experience:</b>3 Months Web development internship</p>
+        <p><b>Technical Skills:</b></p>
+        <ul>
+            <li>MS Office</li>
+            <li>C Programming</li>
+            <li>Data Structures </li>
+            <li>MySQL</li>
+        </ul>
+        <p><b>Online Certifications:</b></p>
+        <ul>
+            <li>Data Structures and Algorithms: Deep Dive Using Java (Udemy)</li>
+            <li>Java Programming Masterclass covering Java 17 (Udemy)</li>
+    
+        </ul>
+    </div>
+    <div class="achievements">
+        <h1>Achievements</h1>
+        <p><b>Academic Projects:</b></p>
+       <dl>
+        <dt><b>Automated Approach to Recognize Number Plate</b></dt>
+        <dd>-Number Plate Recognition is an image processing technology used to identify vehicles
+            by their number plates.</dd>
+            <dt><b>Web Crawler based Phishing Attack Detector</b></dt>
+            <dd>-Web Crawler based Phishing Attack Detector (WC-PAD) is a three-phase phishing
+                attack detection approach.</dd>
+       </dl>
+    </div>
+    <div class="qualification">
+        <h2>Educational Qualifications</h2>
+<table>
+    <tr>
+        <th>Qualification</th>
+        
+        <th>University/Board</th>
+        <th>Year</th>
+        <th>CGPA/Percentage</th>
+    </tr>
+    <tr>
+        <td>B.Tech (Computer Science and Engineering)</td>
+        <td>Jawaharlal Nehru Technological University Hyderabad</td>
+        <td>2017-2021</td>
+        <td>6.23 CGPA</td>
+    </tr>
+    <tr>
+        <td>Masters</td>
+        <td>Bradley University</td>
+        <td>2023-2025(expected)</td>
+        <td>Currently 3.66</td>
+    </tr>
+</table>
+</div>
+
+<div class="Communication">
+    <h2>Communication</h2>
+
+    <form name="contactForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required ><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" ><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" ></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+    
+</body>
+</html>
